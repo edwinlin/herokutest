@@ -6,7 +6,7 @@ class Booking < ApplicationRecord
   belongs_to :listing
   belongs_to :user
 
-  validates_presence_of :start_date, :end_date
+  validates :start_date, :end_date, presence: true
 
   validate :end_date_is_after_start_date
 

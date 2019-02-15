@@ -222,7 +222,7 @@ navbar-nav > li > a:hover {
 
 
 img {
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .has-events #avail {
@@ -318,7 +318,7 @@ a.bklink {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgb(172, 87, 108);
+  background-color: rgb(219, 166, 173);
   color: white;
   transform: rotateY(180deg);
   border-radius: 8px;

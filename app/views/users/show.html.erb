@@ -24,13 +24,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link-1" <%= link_to "Edit Your Profile", edit_user_path(@user) %></a>
+                  <a style="color:rgb(48, 128, 124)" class="nav-link-1" <%= link_to "Edit Your Profile", edit_user_path(@user) %></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link-1" <%= link_to "All Listings", listings_path %></a>
+                  <a style="color:rgb(48, 128, 124)" class="nav-link-1" <%= link_to "All Listings", listings_path %></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link-1" <%= link_to "Create a Listing", create_listing_path %></a>
+                  <a style="color:rgb(48, 128, 124)" class="nav-link-1" <%= link_to "Create a Listing", create_listing_path %></a>
                 </li>
               </ul>
               <form class="form-inline">
@@ -38,7 +38,7 @@
                   <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                 </div> -->
                 <!-- <li class="nav-item"> -->
-                  <a class="nav-link text-align-right blue" <%= link_to "Sign Out", logout_path, method: :delete %></a>
+                  <a style="color:rgb(48, 128, 124)" class="nav-link text-align-right blue" <%= link_to "Sign Out", logout_path, method: :delete %></a>
                 <!-- </li> -->
               </form>
             </div>
@@ -69,7 +69,7 @@
                 <br><div class="container" style="margin-left:12%; border-radius:20px;">
                   <div class="row">
 
-                    <div class="card" style="width: 18rem; background-color:transparent; background-color: rgba(238, 232, 224, 0.75);">
+                    <div class="card" style="border-radius:20px; width: 18rem; background-color:transparent; background-color: rgba(238, 232, 224, 0.75);">
                       <div class="card-body col text-center" style="color:rgb(40, 127, 130)">
                         <ul>
                           <%# if @user.img_url %>
@@ -83,7 +83,7 @@
 
                     <!-- <span class="border border-primary"></span> -->
 
-                    <div class="card" style="width: 18rem; background-color:transparent; background-color: rgba(238, 232,	224, 0.75);">
+                    <div class="card" style="border-radius:20px; width: 18rem; background-color:transparent; background-color: rgba(238, 232,	224, 0.75);">
                       <div class="card-body col text-center" style="color:rgb(40, 127, 130)">
                       <h2 class="text-center"">Your Upcoming Bookings:</h2>
                         <% if @user.bookings.empty? || @user.bookings = []%>
@@ -103,7 +103,7 @@
 
                     <!-- <span class="border border-primary"></span> -->
 
-                    <div class="card" style="width: 18rem; background-color:transparent; background-color: rgba(238, 232,	224, 0.75);">
+                    <div class="card" style="border-radius:20px; width: 18rem; background-color:transparent; background-color: rgba(238, 232,	224, 0.75);">
                       <div class="card-body col text-center" style="color:rgb(40, 127, 130)">
                       <h2>Your Listings:</h2>
                     	  <% if @user.listings.empty?%>

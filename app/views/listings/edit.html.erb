@@ -64,12 +64,12 @@
                 <div class="col-md-12 mb-4 white-text text-center">
                   <br>
                   <br>
-                  <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Edit Listing</strong></h1><br>
+                  <h1 style="color:rgb(131, 37, 38)" class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s"><strong>Edit Listing</strong></h1><br>
                   <!-- <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s"> -->
                 </div>
                 <br>
                 <br>
-                <div class="card" style="width: 18rem; background-color:transparent; margin-left:39%; background-color: rgba(255, 255, 255, 0.65);">
+                <div class="card" style="border-radius:20px; width: 18rem; background-color:transparent; margin-left:37.5%; background-color: rgba(255, 255, 255, 0.65);">
                   <div class="card-body col text-center">
                     <%= form_for @listing do |f| %>
                       <%= f.hidden_field :user_id, value: @listing.user.id %>

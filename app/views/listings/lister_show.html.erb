@@ -75,7 +75,7 @@
                   <!-- <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s"> -->
                 </div>
                 <br>
-                <div class="card" style="width: 30rem; background-color:transparent; margin-left:32%; margin-top:0; background-color: rgba(255, 255, 255, 0.75);">
+                <div class="card" style="border-radius:20px; width: 30rem; background-color:transparent; margin-left:32%; margin-top:0; background-color: rgba(255, 255, 255, 0.75);">
                   <div class="card-body col text-center">
                     <% if @lister.img_url %>
                       <div class="img-thumbnail"> <%= image_tag @lister.img_url %></div>
@@ -83,7 +83,7 @@
                       <img class="img-thumbnail" src="/images/<%= @random_image %>" style="max-height:40%; max-width:40%;">
                     <% end %>
 
-                    <h4 style="">Properties:</h4>
+                    <h4>Properties:</h4>
                       <% if !@lister.listings.empty? %>
                         <% @lister.listings.each do |listing| %>
                           <li style="color:white;"><%= link_to listing.location, listing_path(listing) %></li><br>
