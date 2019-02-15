@@ -16,10 +16,10 @@
 
 #list-index:hover {
   align-self: center;
-  box-shadow: 2px 3px 3px rgba(174	214	214);
+  box-shadow: 2px 3px 3px rgba(174, 214, 214, 0);
   font-size: 13pt;
   font-family: Roboto;
-  background-color: rgba(255,255,255);
+  background-color: rgba(255, 255, 255, 0);
   min-width: auto;
   padding: 20px;
   border-radius: 20px;
@@ -30,7 +30,7 @@
   align-self: center;
   font-size: 12pt;
   font-family: Roboto;
-  background-color: rgba(255,255,255);
+  background-color: rgba(255, 255, 255);
   min-width: auto;
   padding: 20px;
   border-radius: 20px;
@@ -38,7 +38,7 @@
 }
 
 .list-holder {
-  background-color: rgba(255,255,255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 20px;
   padding: 20px;
   width: auto;
@@ -139,7 +139,7 @@ h5 {
 
 
 .navbar-dark .navbar-nav .nav-link-1 {
-  color: rgb(26	60 131);
+  color: rgb(26, 60, 131);
   margin: 10px;
 }
 
@@ -150,7 +150,7 @@ navbar-nav > li > a:hover {
 }
 
 .blue {
-  color: rgb(26	60 131);
+  color: rgb(26, 60, 131);
 }
 
 
@@ -236,7 +236,7 @@ img {
 
 footer {
   max-height: 60px;
-  background-color: rgb(235	234	233);
+  background-color: rgb(235, 234, 233);
   margin-top: 0;
 }
 
@@ -269,7 +269,7 @@ h4 {
 
 
 a.bklink {
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, .5);
   text-decoration: none;
 }
 
@@ -318,7 +318,7 @@ a.bklink {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgb(172	87	108);
+  background-color: rgb(172, 87, 108);
   color: white;
   transform: rotateY(180deg);
   border-radius: 8px;
