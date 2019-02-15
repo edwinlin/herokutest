@@ -28,8 +28,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
           <ul class="navbar-nav mr-auto">
             <% if !session[:user_id] %>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link blue" <%= link_to "All Listings", listings_path %></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link blue" <%= link_to "Log In", new_session_path, method: :get %></a>
             </li>
             <li class="nav-item">
               <a class="nav-link blue" <%= link_to "Create Profile", new_user_path, method: :get %></a>
