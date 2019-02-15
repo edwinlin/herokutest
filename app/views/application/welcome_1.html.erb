@@ -51,7 +51,9 @@
               <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
             </div> -->
             <!-- <li class="nav-item"> -->
+            <% if session[:user_id] %>
               <a class="nav-link text-align-right blue" <%= link_to "Sign Out", logout_path, method: :delete %></a>
+            <% end %>
             <!-- </li> -->
           </form>
         </div>

@@ -18,17 +18,31 @@
   <body>
 
     <div class="view" style="background-image: url('https://img1.coastalliving.timeinc.net/sites/default/files/styles/4_3_horizontal_inbody_900x506/public/image/2016/06/main/white-bedroom-ocean-view-bed16_foul.jpg?itok=2BfoCEjV'); background-repeat: no-repeat; background-size: cover; background-position: center center; opacity: 0.80;">
+      <nav class="navbar navbar-expand-md fixed-top position: absolute; z-index: 5;">
+          <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="logo navbar-brand" href="<%= welcome_1_path %>"><img src="/images/BestBookingTransparent.jpg" style="max-height: 50px;"></a>
+                  </li>
+                  <% if !session[:user_id] %>
+                  <li class="nav-item">
+                      <a class="nav-link" <%= link_to "Create Profile", new_user_path, method: :get %></a>
+                  </li>
+                  <% end %>
+              </ul>
+          </div>
+      </nav>
+
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-light align-items-center">
             <!-- Content -->
-            <a href="<%= welcome_1_path %>"><img src="/images/BestBookingTransparent.jpg" style="margin-left: 25px; margin-top: 20px;"></a>
             <div class="container">
               <!--Grid row-->
               <div class="row">
                 <!--Grid column-->
                 <div class="col-md-12 mb-4 text-center">
 
-                  <h1 id="welcomeheader">Welcome Back!</h1><br>
+                  <br><br><br><br><br><br><br><h1 id="welcomeheader">Welcome Back!</h1><br>
 
                 </div>
                 <div style="width: auto; padding: 45px; background-color:transparent; margin-left:auto; margin-right: auto; border-radius: 20px; background-color: rgba(255, 255, 255, 0.5);">
