@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto|Comfortaa');
 
+.navbar {
+  border-bottom: 2px;
+  border-color: rgb(63, 98, 177);
+}
+
 #login {
   font-size: 16pt;
   font-family: Comfortaa;
@@ -9,9 +14,8 @@
 
 #welcomeheader {
   font-size: 36pt;
-  font-family: Montserrat;
   font-weight: bold;
-  color: rgb(63, 98, 177);
+  color: rgb(68, 157, 186);
 }
 
 #list-index:hover {
@@ -283,7 +287,7 @@ a.bklink {
   width: 300px;
   height: 200px;
   border: 1px solid #f1f1f1;
-  border-radius: 8px;
+  border-radius: 20px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -300,6 +304,10 @@ a.bklink {
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+}
+
+.flip-card-front img {
+  border-radius:20px;
 }
 
 /* Position the front and back side */
@@ -321,7 +329,7 @@ a.bklink {
   background-color: rgb(219, 166, 173);
   color: white;
   transform: rotateY(180deg);
-  border-radius: 8px;
+  border-radius: 20px;
   font-size:16px;
 }
 

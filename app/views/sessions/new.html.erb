@@ -31,14 +31,16 @@
                   <h1 id="welcomeheader">Welcome Back!</h1><br>
 
                 </div>
-                <div style="width: auto; padding: 45px; background-color:transparent; margin-left:auto; margin-right: auto; border-radius: 20px; background-color: rgba(0, 0, 0, 0.25);">
+                <div style="width: auto; padding: 45px; background-color:transparent; margin-left:auto; margin-right: auto; border-radius: 20px; background-color: rgba(255, 255, 255, 0.5);">
                   <div id="login" class="text-center">
                     <%= form_tag "/login" do %><br>
                       <%= label_tag :email %><br>
                       <%= email_field_tag :email %><br><br>
                       <%= label_tag :password %><br>
                       <%= password_field_tag :password %><br><br>
-                      <%= submit_tag "Log In" %><br>
+                      <%= button_tag(type: "submit", class: "btn btn-outline-dark") do %>
+                          Login <i class="icon-repeat"></i>
+                      <% end %><br>
                     <% end %>
                   </div>
                 </div>
