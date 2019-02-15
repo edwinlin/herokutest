@@ -1,0 +1,1495 @@
+Searching 2431 files for "byebug"
+
+/Users/edwinlin/Public/Booking/.gitignore:
+   22  
+   23  /public/assets
+   24: .byebug_history
+   25  
+   26  # Ignore master key for decrypting credentials and more.
+
+/Users/edwinlin/Public/Booking/Gemfile:
+   42  
+   43  group :development, :test do
+   44:   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+   45:   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+   46  end
+   47  
+
+/Users/edwinlin/Public/Booking/Gemfile.lock:
+   53        msgpack (~> 1.0)
+   54      builder (3.2.3)
+   55:     byebug (10.0.2)
+   56      capybara (3.13.2)
+   57        addressable
+   ..
+  205    bcrypt
+  206    bootsnap (>= 1.1.0)
+  207:   byebug
+  208    capybara (>= 2.15)
+  209    chromedriver-helper
+
+/Users/edwinlin/Public/Booking/app/views/application/welcome_1.html.erb:
+   18    </head>
+   19    <body>
+   20:     <% byebug %>
+   21  
+   22      <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="position:absolute;">
+
+/Users/edwinlin/Public/Booking/log/development.log:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-load-path-cache:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/00/05bab32b742d28:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/00/b67d9c10141cb1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/01/9b44e132123dbf:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/07/c05216c0f874c1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/07/f795b85eb1098c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/5eecb123ea0982:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/ab0beb1e51d604:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/bd4d032b9cb496:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0c/4777a32e2ac4b3:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0d/91c674438cdfd5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0f/f1be983fc57c62:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/10/6c99f1237039ca:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/11/35223ce815ebdb:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/12/c22357614d436c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/16/b01a1213a583af:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/19/b0619d825c1dbc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/1a/17b884a8173d34:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/5f848ae3fab929:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/d2e7e9a6369535:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/d332bba5e7535f:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/23/e4d89b06bf1df0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/26/37934adf65010c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/26/6a5d542348a113:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/27/17292d269ef5da:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/29/457f4a758a4ef2:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/33/4b0f25ddb5479a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3c/4f8290fdb89540:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3d/2ca3152dd70d74:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3e/e7d6eb8a7533cd:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3e/f1e5b204afba29:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/40/94f92461c90c7d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/41/98570dd109ff7c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/41/d3d244c6fd3c5a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/43/20f754712b5594:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/4a/6b751947cccf37:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/4e/102ccdfe80f8c2:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/52/8959b1df9b98f0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/55/100b4deafe30a1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/58/6f8a1588bb7bc6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/5c/2c46ef164face1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/5e/f29266cc599874:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/63/15d8931fc7cd38:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/64/41d7e1699964b4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/68/a365edde58b8e6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/6a/3a3fd7554c91ae:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/6b/13893fcb31f473:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/70/d716f2fa947883:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/71/137f02aca82a8d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/74/dca1901b63c9f1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/77/374c66a8bf26cd:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/7b/977427e0d05338:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/7e/e47200b22072ef:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/82/262c2054866d06:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/82/52eaf3a1b18756:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/89/941865325d6a2e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/8e/6dfc2f3a05e276:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/8f/b80b7e27b99694:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/91/a8c6b29b7ae31d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/9b/6cfe4f28755c23:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a1/6e3c5fcaee6138:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a8/691ed464fbf5d0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a8/f0db8ef294bda6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/aa/de5aab28e7a4e8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ab/186ac1628bd142:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ac/f515fc9654ba06:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ad/1e9de3bc66fe4a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ad/cd4a44cfcf46d1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b0/577dd312033e6d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b4/cd0e7a4f2d0d3c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b7/737a0e4595f8d5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ba/3447d36e0cd82e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/674e5d58c5ba5d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/696040e22ebbc9:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/eb5a4af16c2e04:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bf/6d205bd7ce74bb:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bf/e3c9989d100cf4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/c0/29675b1f9736b6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/c3/b9fcb73a75cea1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ca/09219e3a7ffd4a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/261c66686097e6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/9e43a5abb37e0c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/c19de7a5e34bc0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cd/ebe90287a569c5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d2/44509fab5a1d2c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d3/5c08803f29bec6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d5/1f4f6e9b99a302:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d5/b091ca216f0816:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d6/4ce9b03b6550aa:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d6/91985c6f368862:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d9/8306bd6a41446e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d9/8fec68b93dc117:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/dc/6f3dcff31728c8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/de/4656b5712a57f4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e3/013dbe62e38ace:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e5/4e975410119101:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e6/a79e8b06c54ef8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e6/fef01ea106fdf8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e7/08eea202842ae9:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e7/59f4302bf4b1bc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e8/b43585e463731e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/6db25b21d14a3e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/9c0e95e2f707bc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/9fd3391eab0101:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ed/be5a5b4852a477:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ee/70c9d770a4e37f:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ef/11de07cedc97b4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f4/ea55d06e45789d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f5/6f16def52119de:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f9/fcc6df3c76e60d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/fe/07eaf730cb6e93:
+    <binary>
+
+814 matches across 116 files
+
+
+Searching 2431 files for "byebug"
+
+/Users/edwinlin/Public/Booking/.gitignore:
+   22  
+   23  /public/assets
+   24: .byebug_history
+   25  
+   26  # Ignore master key for decrypting credentials and more.
+
+/Users/edwinlin/Public/Booking/Gemfile:
+   42  
+   43  group :development, :test do
+   44:   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+   45:   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+   46  end
+   47  
+
+/Users/edwinlin/Public/Booking/Gemfile.lock:
+   53        msgpack (~> 1.0)
+   54      builder (3.2.3)
+   55:     byebug (10.0.2)
+   56      capybara (3.13.2)
+   57        addressable
+   ..
+  205    bcrypt
+  206    bootsnap (>= 1.1.0)
+  207:   byebug
+  208    capybara (>= 2.15)
+  209    chromedriver-helper
+
+/Users/edwinlin/Public/Booking/app/views/application/welcome_1.html.erb:
+   18    </head>
+   19    <body>
+   20:     <% byebug %>
+   21  
+   22      <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="position:absolute;">
+
+/Users/edwinlin/Public/Booking/log/development.log:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-load-path-cache:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/00/05bab32b742d28:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/00/b67d9c10141cb1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/01/9b44e132123dbf:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/07/c05216c0f874c1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/07/f795b85eb1098c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/5eecb123ea0982:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/ab0beb1e51d604:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/bd4d032b9cb496:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0c/4777a32e2ac4b3:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0d/91c674438cdfd5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0f/f1be983fc57c62:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/10/6c99f1237039ca:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/11/35223ce815ebdb:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/12/c22357614d436c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/16/b01a1213a583af:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/19/b0619d825c1dbc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/1a/17b884a8173d34:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/5f848ae3fab929:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/d2e7e9a6369535:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/d332bba5e7535f:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/23/e4d89b06bf1df0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/26/37934adf65010c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/26/6a5d542348a113:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/27/17292d269ef5da:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/29/457f4a758a4ef2:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/33/4b0f25ddb5479a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3c/4f8290fdb89540:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3d/2ca3152dd70d74:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3e/e7d6eb8a7533cd:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3e/f1e5b204afba29:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/40/94f92461c90c7d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/41/98570dd109ff7c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/41/d3d244c6fd3c5a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/43/20f754712b5594:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/4a/6b751947cccf37:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/4e/102ccdfe80f8c2:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/52/8959b1df9b98f0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/55/100b4deafe30a1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/58/6f8a1588bb7bc6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/5c/2c46ef164face1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/5e/f29266cc599874:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/63/15d8931fc7cd38:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/64/41d7e1699964b4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/68/a365edde58b8e6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/6a/3a3fd7554c91ae:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/6b/13893fcb31f473:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/70/d716f2fa947883:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/71/137f02aca82a8d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/74/dca1901b63c9f1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/77/374c66a8bf26cd:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/7b/977427e0d05338:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/7e/e47200b22072ef:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/82/262c2054866d06:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/82/52eaf3a1b18756:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/89/941865325d6a2e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/8e/6dfc2f3a05e276:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/8f/b80b7e27b99694:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/91/a8c6b29b7ae31d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/9b/6cfe4f28755c23:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a1/6e3c5fcaee6138:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a8/691ed464fbf5d0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a8/f0db8ef294bda6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/aa/de5aab28e7a4e8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ab/186ac1628bd142:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ac/f515fc9654ba06:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ad/1e9de3bc66fe4a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ad/cd4a44cfcf46d1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b0/577dd312033e6d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b4/cd0e7a4f2d0d3c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b7/737a0e4595f8d5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ba/3447d36e0cd82e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/674e5d58c5ba5d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/696040e22ebbc9:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/eb5a4af16c2e04:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bf/6d205bd7ce74bb:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bf/e3c9989d100cf4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/c0/29675b1f9736b6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/c3/b9fcb73a75cea1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ca/09219e3a7ffd4a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/261c66686097e6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/9e43a5abb37e0c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/c19de7a5e34bc0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cd/ebe90287a569c5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d2/44509fab5a1d2c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d3/5c08803f29bec6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d5/1f4f6e9b99a302:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d5/b091ca216f0816:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d6/4ce9b03b6550aa:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d6/91985c6f368862:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d9/8306bd6a41446e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d9/8fec68b93dc117:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/dc/6f3dcff31728c8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/de/4656b5712a57f4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e3/013dbe62e38ace:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e5/4e975410119101:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e6/a79e8b06c54ef8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e6/fef01ea106fdf8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e7/08eea202842ae9:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e7/59f4302bf4b1bc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e8/b43585e463731e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/6db25b21d14a3e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/9c0e95e2f707bc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/9fd3391eab0101:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ed/be5a5b4852a477:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ee/70c9d770a4e37f:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ef/11de07cedc97b4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f4/ea55d06e45789d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f5/6f16def52119de:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f9/fcc6df3c76e60d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/fe/07eaf730cb6e93:
+    <binary>
+
+814 matches across 116 files
+
+
+Searching 2431 files for "byebug"
+
+/Users/edwinlin/Public/Booking/.gitignore:
+   22  
+   23  /public/assets
+   24: .byebug_history
+   25  
+   26  # Ignore master key for decrypting credentials and more.
+
+/Users/edwinlin/Public/Booking/Gemfile:
+   42  
+   43  group :development, :test do
+   44:   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+   45:   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+   46  end
+   47  
+
+/Users/edwinlin/Public/Booking/Gemfile.lock:
+   53        msgpack (~> 1.0)
+   54      builder (3.2.3)
+   55:     byebug (10.0.2)
+   56      capybara (3.13.2)
+   57        addressable
+   ..
+  205    bcrypt
+  206    bootsnap (>= 1.1.0)
+  207:   byebug
+  208    capybara (>= 2.15)
+  209    chromedriver-helper
+
+/Users/edwinlin/Public/Booking/app/views/application/welcome_1.html.erb:
+   18    </head>
+   19    <body>
+   20:     <% byebug %>
+   21  
+   22      <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="position:absolute;">
+
+/Users/edwinlin/Public/Booking/log/development.log:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-load-path-cache:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/00/05bab32b742d28:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/00/b67d9c10141cb1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/01/9b44e132123dbf:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/07/c05216c0f874c1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/07/f795b85eb1098c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/5eecb123ea0982:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/ab0beb1e51d604:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/bd4d032b9cb496:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0c/4777a32e2ac4b3:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0d/91c674438cdfd5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0f/f1be983fc57c62:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/10/6c99f1237039ca:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/11/35223ce815ebdb:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/12/c22357614d436c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/16/b01a1213a583af:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/19/b0619d825c1dbc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/1a/17b884a8173d34:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/5f848ae3fab929:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/d2e7e9a6369535:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/d332bba5e7535f:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/23/e4d89b06bf1df0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/26/37934adf65010c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/26/6a5d542348a113:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/27/17292d269ef5da:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/29/457f4a758a4ef2:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/33/4b0f25ddb5479a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3c/4f8290fdb89540:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3d/2ca3152dd70d74:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3e/e7d6eb8a7533cd:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3e/f1e5b204afba29:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/40/94f92461c90c7d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/41/98570dd109ff7c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/41/d3d244c6fd3c5a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/43/20f754712b5594:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/4a/6b751947cccf37:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/4e/102ccdfe80f8c2:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/52/8959b1df9b98f0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/55/100b4deafe30a1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/58/6f8a1588bb7bc6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/5c/2c46ef164face1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/5e/f29266cc599874:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/63/15d8931fc7cd38:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/64/41d7e1699964b4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/68/a365edde58b8e6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/6a/3a3fd7554c91ae:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/6b/13893fcb31f473:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/70/d716f2fa947883:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/71/137f02aca82a8d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/74/dca1901b63c9f1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/77/374c66a8bf26cd:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/7b/977427e0d05338:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/7e/e47200b22072ef:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/82/262c2054866d06:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/82/52eaf3a1b18756:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/89/941865325d6a2e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/8e/6dfc2f3a05e276:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/8f/b80b7e27b99694:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/91/a8c6b29b7ae31d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/9b/6cfe4f28755c23:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a1/6e3c5fcaee6138:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a8/691ed464fbf5d0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a8/f0db8ef294bda6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/aa/de5aab28e7a4e8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ab/186ac1628bd142:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ac/f515fc9654ba06:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ad/1e9de3bc66fe4a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ad/cd4a44cfcf46d1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b0/577dd312033e6d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b4/cd0e7a4f2d0d3c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b7/737a0e4595f8d5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ba/3447d36e0cd82e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/674e5d58c5ba5d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/696040e22ebbc9:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/eb5a4af16c2e04:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bf/6d205bd7ce74bb:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bf/e3c9989d100cf4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/c0/29675b1f9736b6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/c3/b9fcb73a75cea1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ca/09219e3a7ffd4a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/261c66686097e6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/9e43a5abb37e0c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/c19de7a5e34bc0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cd/ebe90287a569c5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d2/44509fab5a1d2c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d3/5c08803f29bec6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d5/1f4f6e9b99a302:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d5/b091ca216f0816:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d6/4ce9b03b6550aa:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d6/91985c6f368862:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d9/8306bd6a41446e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d9/8fec68b93dc117:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/dc/6f3dcff31728c8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/de/4656b5712a57f4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e3/013dbe62e38ace:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e5/4e975410119101:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e6/a79e8b06c54ef8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e6/fef01ea106fdf8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e7/08eea202842ae9:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e7/59f4302bf4b1bc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e8/b43585e463731e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/6db25b21d14a3e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/9c0e95e2f707bc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/9fd3391eab0101:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ed/be5a5b4852a477:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ee/70c9d770a4e37f:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ef/11de07cedc97b4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f4/ea55d06e45789d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f5/6f16def52119de:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f9/fcc6df3c76e60d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/fe/07eaf730cb6e93:
+    <binary>
+
+814 matches across 116 files
+
+
+Searching 2431 files for "byebug"
+
+/Users/edwinlin/Public/Booking/.gitignore:
+   22  
+   23  /public/assets
+   24: .byebug_history
+   25  
+   26  # Ignore master key for decrypting credentials and more.
+
+/Users/edwinlin/Public/Booking/Gemfile:
+   42  
+   43  group :development, :test do
+   44:   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+   45:   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+   46  end
+   47  
+
+/Users/edwinlin/Public/Booking/Gemfile.lock:
+   53        msgpack (~> 1.0)
+   54      builder (3.2.3)
+   55:     byebug (10.0.2)
+   56      capybara (3.13.2)
+   57        addressable
+   ..
+  205    bcrypt
+  206    bootsnap (>= 1.1.0)
+  207:   byebug
+  208    capybara (>= 2.15)
+  209    chromedriver-helper
+
+/Users/edwinlin/Public/Booking/log/development.log:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-load-path-cache:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/00/05bab32b742d28:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/00/b67d9c10141cb1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/01/9b44e132123dbf:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/07/c05216c0f874c1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/07/f795b85eb1098c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/5eecb123ea0982:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/ab0beb1e51d604:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0a/bd4d032b9cb496:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0c/4777a32e2ac4b3:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0d/91c674438cdfd5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/0f/f1be983fc57c62:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/10/6c99f1237039ca:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/11/35223ce815ebdb:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/12/c22357614d436c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/16/b01a1213a583af:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/19/b0619d825c1dbc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/1a/17b884a8173d34:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/5f848ae3fab929:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/d2e7e9a6369535:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/22/d332bba5e7535f:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/23/e4d89b06bf1df0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/26/37934adf65010c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/26/6a5d542348a113:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/27/17292d269ef5da:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/29/457f4a758a4ef2:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/33/4b0f25ddb5479a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3c/4f8290fdb89540:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3d/2ca3152dd70d74:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3e/e7d6eb8a7533cd:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/3e/f1e5b204afba29:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/40/94f92461c90c7d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/41/98570dd109ff7c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/41/d3d244c6fd3c5a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/43/20f754712b5594:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/4a/6b751947cccf37:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/4e/102ccdfe80f8c2:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/52/8959b1df9b98f0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/55/100b4deafe30a1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/58/6f8a1588bb7bc6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/5c/2c46ef164face1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/5e/f29266cc599874:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/63/15d8931fc7cd38:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/64/41d7e1699964b4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/68/a365edde58b8e6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/6a/3a3fd7554c91ae:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/6b/13893fcb31f473:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/70/d716f2fa947883:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/71/137f02aca82a8d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/74/dca1901b63c9f1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/77/374c66a8bf26cd:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/7b/977427e0d05338:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/7e/e47200b22072ef:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/82/262c2054866d06:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/82/52eaf3a1b18756:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/89/941865325d6a2e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/8e/6dfc2f3a05e276:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/8f/b80b7e27b99694:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/91/a8c6b29b7ae31d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/9b/6cfe4f28755c23:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a1/6e3c5fcaee6138:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a8/691ed464fbf5d0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/a8/f0db8ef294bda6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/aa/de5aab28e7a4e8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ab/186ac1628bd142:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ac/f515fc9654ba06:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ad/1e9de3bc66fe4a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ad/cd4a44cfcf46d1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b0/577dd312033e6d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b4/cd0e7a4f2d0d3c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/b7/737a0e4595f8d5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ba/3447d36e0cd82e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/674e5d58c5ba5d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/696040e22ebbc9:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bd/eb5a4af16c2e04:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bf/6d205bd7ce74bb:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/bf/e3c9989d100cf4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/c0/29675b1f9736b6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/c3/b9fcb73a75cea1:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ca/09219e3a7ffd4a:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/261c66686097e6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/9e43a5abb37e0c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cc/c19de7a5e34bc0:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/cd/ebe90287a569c5:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d2/44509fab5a1d2c:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d3/5c08803f29bec6:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d5/1f4f6e9b99a302:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d5/b091ca216f0816:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d6/4ce9b03b6550aa:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d6/91985c6f368862:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d9/8306bd6a41446e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/d9/8fec68b93dc117:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/dc/6f3dcff31728c8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/de/4656b5712a57f4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e3/013dbe62e38ace:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e5/4e975410119101:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e6/a79e8b06c54ef8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e6/fef01ea106fdf8:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e7/08eea202842ae9:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e7/59f4302bf4b1bc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/e8/b43585e463731e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/6db25b21d14a3e:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/9c0e95e2f707bc:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ea/9fd3391eab0101:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ed/be5a5b4852a477:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ee/70c9d770a4e37f:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/ef/11de07cedc97b4:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f4/ea55d06e45789d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f5/6f16def52119de:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/f9/fcc6df3c76e60d:
+    <binary>
+
+/Users/edwinlin/Public/Booking/tmp/cache/bootsnap-compile-cache/fe/07eaf730cb6e93:
+    <binary>
+
+813 matches across 115 files
