@@ -283,6 +283,7 @@ a.bklink {
   width: 300px;
   height: 200px;
   border: 1px solid #f1f1f1;
+  border-radius: 8px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -317,9 +318,10 @@ a.bklink {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: rgb(172	87	108);
   color: white;
   transform: rotateY(180deg);
+  border-radius: 8px;
 }
 
 
