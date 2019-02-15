@@ -16,8 +16,8 @@
 
 #list-index:hover {
   align-self: center;
-  box-shadow: 1px 1px 1px 1px;
-  font-size: 14pt;
+  box-shadow: 2px 3px 3px rgba(174	214	214);
+  font-size: 13pt;
   font-family: Roboto;
   background-color: rgba(255,255,255);
   min-width: auto;
@@ -194,7 +194,7 @@ navbar-nav > li > a:hover {
 }
 
 .book-img {
-   style="max-height:40%;
+   max-height:40%;
    max-width:40%;
    display: block;
    margin-left: auto;
@@ -322,6 +322,7 @@ a.bklink {
   color: white;
   transform: rotateY(180deg);
   border-radius: 8px;
+  font-size:16px;
 }
 
 
