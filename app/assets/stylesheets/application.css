@@ -18,34 +18,42 @@
   color: rgb(68, 157, 186);
 }
 
-#list-index:hover {
+
+#listing-list #list-index:hover {
   align-self: center;
-  box-shadow: 2px 3px 3px rgba(174, 214, 214, 0);
-  font-size: 13pt;
+  box-shadow: 1px 2px 2px 0px;
+  font-size: 16pt;
   font-family: Roboto;
-  background-color: rgba(255, 255, 255, 0);
-  min-width: auto;
+  background-color: white !important;
+  opacity: 1 !important;
+  min-width: 20em; 
   padding: 20px;
   border-radius: 20px;
-  top: 4.7em;
+}
+
+#listing-list {
+  align-self: center;
+}
+
+#list-row {
+  margin-left: auto;
+  margin-right: auto; 
 }
 
 #list-index {
   align-self: center;
-  font-size: 12pt;
-  font-family: Roboto;
-  background-color: rgba(255, 255, 255);
-  min-width: auto;
+  background-color: white !important;
+  opacity: 0.5;
+  min-width: 20em; 
   padding: 20px;
+  margin-right: 50px;
   border-radius: 20px;
-  top: 4.7em;
 }
 
-.list-holder {
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 20px;
-  padding: 20px;
-  width: auto;
+#list-container {
+  border-radius: 20px; 
+background: rgba(0,0,0,0.7);
+  max-width: 40%; 
 }
 
 .logo {
