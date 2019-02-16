@@ -52,7 +52,7 @@
     <div id="list-row" class="row content">
       <div class="col-3">
       </div>
-    <div class="col-sm-6 justify-content-center list-holder">
+    <div class="justify-content-center list-holder">
       <div class="listing-list">
         <% @listings.each do |l| %>
           <p  id="list-index"><%= link_to l.location, listing_path(l) %></p>
