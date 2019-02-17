@@ -13,7 +13,7 @@ class BookingsController < ApplicationController
         @user = User.find(session[:user_id])
         flash[:notice] = "#{@booking.split(" Not Found").first}. Redirected to current bookings."
 
-        redirect_to user_path(@user)
+        return redirect_to user_path(@user)
       end
     end
 
@@ -57,7 +57,7 @@ class BookingsController < ApplicationController
      end
      @booking.save
      session[:booking_id] = @booking.id
-     redirect_to booking_path(@booking)
+     returnredirect_to booking_path(@booking)
    else
      redirect_to new_booking_path
    end
