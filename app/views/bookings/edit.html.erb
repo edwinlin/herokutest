@@ -100,7 +100,11 @@
          <%=date.day%>
          <div id="avail"><%="Available"%></div>
          <% bookings.each do |booking| %>
-           <div>Booked by: <%= button_to booking.user.name, booking_path(booking), method: :get %></div>
+          <% if booking.user.id == session[:user_id] %>
+           <div>Booked by: <%= button_to booking.user.name.titleize, booking_path(booking), method: :get %></div>
+           <% else %>
+           <%= "Booked by: #{booking.user.name}" %>
+          <% end %>
          <% end %>
        <% end %>
       </div>

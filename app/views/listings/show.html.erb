@@ -102,12 +102,18 @@
             <%=date.day%>
             <% if @listing.user.id != session[:user_id] %>
               <% if session[:user_id] %>
-                <div id="avail"><%= button_to "Available", create_booking_path(date, @listing.id), method: :get %></div>
+                <div id="avail" style = text-align:center;><%= button_to "Available", create_booking_path(date, @listing.id), method: :get %></div>
               <% end %>
             <% end %>
-            <% bookings.each do |booking| %>
-              <div><%= booking.user.name.titleize %></div>
-            <% end %>
+             <% bookings.each do |booking| %>
+              <% if booking.user.id == session[:user_id] %>
+               <%= "Booked by:" %><br>
+                <div style = text-align:center;><%= button_to "You", booking_path(booking), method: :get %></div>
+               <% else %>
+               <%= "Booked by:" %><br>
+               <div style = text-align:center;><%= "#{booking.user.name.titleize}" %></div>
+              <% end %>
+             <% end %>
             <% end %>
         </div>
 
