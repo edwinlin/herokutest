@@ -8,11 +8,7 @@
 	<title>New Listing</title>
 </head>
 <body>
-    <% if flash[:error] %>
-      <% flash[:error].each do |error| %>
-        <li style="color:red"><%= error %></li>
-      <% end %>
-    <% end %>
+
       <header>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="position:absolute">
@@ -64,8 +60,20 @@
                   <br>
                   <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" style="color:black;" data-wow-delay="0.3s">Hi, <%= @user.name.titleize %>!</h1><br>
                   <!-- <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s"> -->
+                  <div class="container" style="width:55%">
+                    <% if flash[:error] %>
+                      <% flash[:error].each do |error| %>
+                        <li style="color:red"><%= error %></li>
+                      <% end %>
+                    <% end %>
+
+                    <% if flash[:notice] %>
+                      <li style="color:red; background-color: rgba(238, 232, 224, 0.65);"><%= flash[:notice] %></li>
+                    <% end %>
+                  </div>
                 </div>
                 <br>
+
                 <br><div class="container" style="margin-left:12%; border-radius:20px;">
                   <div class="row">
 

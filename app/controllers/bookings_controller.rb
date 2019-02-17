@@ -8,12 +8,21 @@ class BookingsController < ApplicationController
   end
 
   def show
-    flash[:error] = nil
-    flash[:notice] = nil
-    @user = User.find(session[:user_id])
-    @images  = ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "8.jpeg", "9.jpeg", "10.jpeg", "11.jpeg", "12.jpeg", "13.jpeg", "14.jpeg", "15.jpeg", "16.jpeg", "17.jpeg", "19.jpeg", "21.jpeg", "22.jpeg", "23.jpeg", "24.jpeg", "25.jpeg", "26.jpeg", "27.jpg", "28.jpg", "29.jpg", "30.jpg", "31.jpg"]
-    @random_no = rand(29)
-    @random_image = @images[@random_no]
+    if @booking.include?"Not Found"
+      @user = User.find(session[:user_id])
+      flash[:notice] = "#{@booking.split(" Not Found").first}. Redirected to current bookings."
+
+      redirect_to user_path(@user)
+    else
+      flash[:error] = nil
+      flash[:notice] = nil
+      @user = User.find(session[:user_id])
+      @images  = ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "8.jpeg", "9.jpeg", "10.jpeg", "11.jpeg", "12.jpeg", "13.jpeg", "14.jpeg", "15.jpeg", "16.jpeg", "17.jpeg", "19.jpeg", "21.jpeg", "22.jpeg", "23.jpeg", "24.jpeg", "25.jpeg", "26.jpeg", "27.jpg", "28.jpg", "29.jpg", "30.jpg", "31.jpg"]
+      @random_no = rand(29)
+      @random_image = @images[@random_no]
+
+      render :show
+    end
   end
 
   def new
@@ -91,7 +100,11 @@ class BookingsController < ApplicationController
   private
 
   def set_booking
-    @booking = Booking.find(params[:id])
+    begin
+      @booking = Booking.find(params[:id])
+    rescue ActiveRecord::RecordNotFound => e
+      @booking = "#{e} Not Found"
+    end
   end
 
   def booking_params
