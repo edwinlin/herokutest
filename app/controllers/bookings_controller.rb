@@ -57,7 +57,7 @@ class BookingsController < ApplicationController
      end
      @booking.save
      session[:booking_id] = @booking.id
-     returnredirect_to booking_path(@booking)
+     redirect_to booking_path(@booking)
    else
      redirect_to new_booking_path
    end
