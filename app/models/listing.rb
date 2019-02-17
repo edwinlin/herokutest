@@ -3,4 +3,5 @@ class Listing < ApplicationRecord
   has_many :bookings
 
   validates :location, presence: true
+
 end
