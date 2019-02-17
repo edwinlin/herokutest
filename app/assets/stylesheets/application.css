@@ -129,6 +129,7 @@ body,
 header,
 .view {
   height: 100%;
+  background-color: rgb(235, 234, 233);
 }
 
 @media (max-width: 740px) {
@@ -232,10 +233,15 @@ img {
   min-height: 60px;
 }
 
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between
+}
+
 footer {
-  max-height: 60px;
-  background-color: rgb(235, 234, 233);
-  margin-top: 0;
+  padding-top: 15px;
 }
 
 a {
