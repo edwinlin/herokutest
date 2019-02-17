@@ -98,7 +98,9 @@
        <%= month_calendar(attribute: :start_date, end_attribute: :end_date, events: @booking.listing.bookings) do |date, bookings| %>
 
          <%=date.day%>
-         <div id="avail"><%="Available"%></div>
+         <% if session[:user_id] && date >= Date.today %>
+          <div id="avail"><%="Available"%></div>
+         <% end %>
          <% bookings.each do |booking| %>
           <% if booking.user.id == session[:user_id] %>
            <%= "Booked by:" %><br>
