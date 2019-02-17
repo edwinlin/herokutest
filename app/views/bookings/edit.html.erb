@@ -105,7 +105,8 @@
            <div style = text-align:center;><%= button_to "You", booking_path(booking), method: :get %></div>
 
            <% else %>
-           <%= "Booked by: #{booking.user.name}" %>
+           <%= "Booked by:"%>
+           <div style = text-align:center;><%= "#{booking.user.name}" %></div>
           <% end %>
          <% end %>
        <% end %>
