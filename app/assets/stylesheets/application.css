@@ -123,6 +123,9 @@ padding-right: 1.1rem;
 }
 }
 
+.bgcolor-fill{
+  background-color: rgb(235, 234, 233);
+}
 
 html,
 body,
