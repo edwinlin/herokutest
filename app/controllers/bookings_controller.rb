@@ -8,14 +8,14 @@ class BookingsController < ApplicationController
   end
 
   def show
-    if @booking.class == String
+    # if @booking.class == String
       if @booking.include?"Not Found"
         @user = User.find(session[:user_id])
         flash[:notice] = "#{@booking.split(" Not Found").first}. Redirected to current bookings."
 
         return redirect_to user_path(@user)
       end
-    end
+    # end
 
       flash[:error] = nil
       flash[:notice] = nil
